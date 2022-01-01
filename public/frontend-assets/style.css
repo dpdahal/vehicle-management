@@ -1,0 +1,1027 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size:16px;
+}
+
+h1{
+    font-size:28px;
+    margin-bottom:15px;
+    color:#0059B2;
+}
+h2{
+    font-size:22px;
+    margin-bottom:12px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    border-bottom:solid #ccc 1px;
+}
+h3{
+    font-size:18px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    border-bottom:solid #ccc 1px;
+}
+h4{
+    font-size:16px;
+    margin-bottom:10px;
+}
+.topheader {
+    background-color: #000;
+    padding-top: 10px;
+}
+.navbar {
+    background-repeat: repeat-x;
+}
+.topheader {
+    background-color: #192D46;
+    color: #fff;
+    text-align: center;
+}
+.top-header .email {
+    margin-left: 50px;
+    color: #EFF107;
+    display: inline-block;
+}
+.topheader .social ul li {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.topheader ul li a[title="Register"], .topheader ul li a[title="Login"] {
+    font-size: 16px !important;
+    margin-right: 0px !important;
+}
+.topheader ul li a[title="Register"]:before {
+    font-family: fontAwesome;
+    content: "\f25d";
+    margin-right: 5px;
+}
+.topheader ul li a[title="Register"] {
+    margin-left: 50px !important;
+}
+.topheader ul li a[title="Login"]:before {
+    font-family: fontAwesome;
+    content: "\f090";
+    margin-right: 5px;
+}
+.header img.img-responsive {
+    padding: 10px;
+}
+.main-menu {
+    margin-top: 10px;
+}
+.menu-menu.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 900;
+}
+.menu-menu .navbar-default {
+    border: none;
+    background-color: transparent;
+    height: auto;
+    min-height: 0;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #f7ed4a;
+}
+.navbar-toggle {
+    background-color: #ac002c;
+}
+.navbar-nav:not(.sm-collapsible) li .caret {
+    border-top: 2px solid #ac002c;
+    border-right: 0px solid transparent;
+    border-left: 2px solid #ac002c;
+    position: relative;
+    margin: 0;
+    height: 8px;
+    width: 8px;
+    transform: rotate(225deg);
+    transition: all 0.6s;
+    margin-top: -5px;
+    margin-left: 4px;
+}
+.navbar-nav:not(.sm-collapsible) ul .caret {
+    position: absolute;
+    right: 0;
+    margin-top: 6px;
+    margin-right: 15px;
+    height: 8px;
+    width: 8px;
+    margin-left: 4px;
+    border-top: 2px solid #0B8303;
+    border-right: 0px solid transparent;
+    border-left: 2px solid #0B8303;
+    transform: rotate(135deg);
+}
+.navbar-nav:not(.sm-collapsible) ul a.has-submenu {
+    padding-right: 30px
+}
+.navbar-nav.sm-collapsible .caret, .navbar-nav.sm-collapsible ul .caret {
+    position: absolute;
+    right: 0;
+    margin: -3px 15px 0 0;
+    padding: 0;
+    width: 32px;
+    height: 26px;
+    line-height: 24px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid
+}
+.navbar-nav.sm-collapsible .caret:before {
+    content: '+';
+    font-family: monospace;
+    font-weight: 700;
+    color: #000;
+}
+.navbar-nav.sm-collapsible .open > a > .caret:before {
+    content: '-';
+    color: #000;
+}
+.navbar-nav.sm-collapsible a.has-submenu {
+    padding-right: 50px
+}
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret, .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] ul .caret {
+    position: static;
+    margin: 0 0 0 2px;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-bottom: 0;
+    border-left: 4px solid transparent
+}
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret:before {
+    content: '' !important
+}
+.navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] a.has-submenu {
+    padding-right: 15px
+}
+.navbar-nav span.scroll-up, .navbar-nav span.scroll-down {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    height: 20px;
+    overflow: hidden;
+    text-align: center
+}
+.navbar-nav span.scroll-up-arrow, .navbar-nav span.scroll-down-arrow {
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-top: 7px dashed transparent;
+    border-right: 7px dashed transparent;
+    border-bottom: 7px solid;
+    border-left: 7px dashed transparent
+}
+.navbar-nav span.scroll-down-arrow {
+    top: 6px;
+    border-top: 7px solid;
+    border-right: 7px dashed transparent;
+    border-bottom: 7px dashed transparent;
+    border-left: 7px dashed transparent
+}
+.navbar-nav.sm-collapsible ul .dropdown-menu > li > a, .navbar-nav.sm-collapsible ul .dropdown-menu .dropdown-header {
+    padding-left: 35px
+}
+.navbar-nav.sm-collapsible ul ul .dropdown-menu > li > a, .navbar-nav.sm-collapsible ul ul .dropdown-menu .dropdown-header {
+    padding-left: 45px
+}
+.navbar-nav.sm-collapsible ul ul ul .dropdown-menu > li > a, .navbar-nav.sm-collapsible ul ul ul .dropdown-menu .dropdown-header {
+    padding-left: 55px
+}
+.navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu > li > a, .navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu .dropdown-header {
+    padding-left: 65px
+}
+.navbar-nav .dropdown-menu > li > a {
+    white-space: normal
+}
+.navbar-nav ul.sm-nowrap > li > a {
+    white-space: nowrap
+}
+.navbar-nav.sm-collapsible ul.sm-nowrap > li > a {
+    white-space: normal
+}
+
+
+@media (min-width: 992px) {
+    .main-menu .navbar-default {
+        background-color: transparent;
+    }
+}
+.main-menu .navbar-default .navbar-toggle {
+    background-color: #ff8a33;
+    border-color: #cc5700
+}
+.main-menu .navbar-default .navbar-toggle:hover {
+    background-color: #ff8a33;
+    border-color: #cc5700
+}
+.main-menu .navbar-default .navbar-toggle:focus {
+    background-color: #ff8a33;
+    border-color: #cc5700
+}
+.main-menu .navbar-default .navbar-toggle .icon-bar {
+    background-color: white
+}
+.main-menu .navbar-default .navbar-nav > li > a {
+    color: #f7ed4a;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.main-menu .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: none;
+    min-height: 1px
+}
+.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0
+}
+.toggle-menu {
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden
+}
+.toggle-menu > span.text {
+    padding: 7px 0 0 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    border-color: #fff;
+    background-color: #fff;
+    border-radius: 2px
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #254279
+}
+.navbar-nav {
+    margin: 0;
+    padding-left: 3px
+}
+.navbar-default .navbar-nav:first-child > li:first-child > a {
+    border-left: none
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li:hover, .navbar-default .navbar-nav > li:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #fff;
+    color: #111;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+    border: none;
+    border-radius: 0;
+    min-width: 200px;
+    left: 1px;
+    background: #fff;
+    padding: 0
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus, .navbar-default .navbar-nav > .open .dropdown-menu > li > a, .navbar-default .navbar-nav > .open .dropdown-menu > li > a:focus {
+    padding: 10px 15px;
+    background: #fff;
+    color: #111;
+    border-top: solid 1px rgba(0, 0, 0, .1);
+    padding-right: 30px
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > ul > li > a {
+    font-weight: 400;
+    padding: 10px;
+    border-bottom: 1px dotted;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li:hover > a, .navbar-default .navbar-nav > .open .dropdown-menu > li > a:hover {
+    color: #004d40;
+    background: #f1f1f1
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .dropdown-menu {
+    padding: 0;
+    margin: 0
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .dropdown-menu-lg {
+    min-width: 500px
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .dropdown-menu-lg li {
+    width: 50%;
+    float: left
+}
+#price{color:red;}
+.vehiclebooking li {
+    text-align: left !important;
+}
+.vehiclebooking .form-control {
+    min-height: 0;
+}
+.vehiclebooking ul {
+    padding-left: 0px !important;
+}
+.vehiclebooking ul li {
+    display: inline-block !important;
+    margin-bottom: 10px !important;
+    margin-right: 50px;
+    max-width: 300px;
+}
+.vehiclebooking ul li label {
+    color: #fff;
+}
+.vehiclebooking li input {
+    color: #000;
+    margin-left: 5px;
+    padding: 5px;
+}
+.vehiclebooking ul li input.btn {
+    margin-top: 70px;
+}
+.vehiclebooking {
+    padding: 15px 30px;
+    background-color: rgba(255,255,255,.8);
+}
+.welcome {
+    padding: 50px 0 100px 0;
+}
+.homepage .welcome h1 a {
+    color: inherit;
+}
+.welcome .mbr-overlay {
+    opacity: 0.4;
+    background-color: rgb(61, 142, 185);
+}
+.welcome ul li {
+    list-style-type: none;
+}
+.welcome .book {
+    background-color: #fff;
+}
+.welcome .vehiclebooking form ul li label {
+    color: #111;
+}
+.welcome .vehiclebooking form ul li input {
+    color: #111;
+}
+#content8-7 .mbr-section-title {
+    color: #fff !important;
+    background-color: rgba(1,1,1,.5);
+    padding: 25px;
+}
+.services {
+    padding: 40px 30px;
+}
+.services p{
+    text-align:justify;
+}
+.services .package {
+    margin-bottom: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px #ddd;
+    box-shadow: 0 0 10px #111;
+}
+.services .package .card-img .image {
+    padding: 10px;
+}
+.services .package .card-block {
+    background-color: #F5F5F5;
+    padding: 10px 20px 30px 20px;
+}
+.services .package .card-block h4 {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.services .package .card-block p {
+    min-height: 50px;
+}
+.services .package .btn-primary {
+    color: #fff !important;
+    background-color: #0094DE;
+    border-color: #0094DE;
+    padding: 10px 20px;
+}
+.toptrip .mbr-overlay {
+    background-color: #fff;
+}
+.toptrip .package {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.toptrip .package .card-title a {
+    color: #232323;
+}
+.homepagetestimonial {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.homepagetestimonial .mbr-overlay {
+    opacity: 0.5;
+    background-color: rgb(34, 34, 34);
+}
+a {
+    color: inherit !important;
+}
+.partner {
+    background: #fff !important;
+}
+.partner h3 {
+    color: #222 !important;
+}
+.partner .pad li {
+    width: 20% !important;
+}
+.partner .pad li img {
+    width: 100%;
+}
+section.steps {
+    background-image: url(../images/service.jpg);
+    text-align: center;
+    padding: 50px 0px;
+}
+section.steps h3 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+section.steps li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+section.steps li a {
+    color: #999 !important;
+}
+section.steps li p {
+    margin-top: 30px;
+}
+.our-fleet {
+    padding: 50px;
+}
+.our-fleet .card {
+    background: #E0E0E0;
+}
+.our-fleet .card .card-block {
+    padding: 10px 15px !important;
+    text-align: center;
+}
+.our-fleet .card img {
+    width: 100%;
+    min-height: 185px;
+}
+.our-fleet h2 {
+    text-align: center;
+    color: #222;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #333;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.mbr-footer.footer .mbr-contacts p {
+    color: #ccc;
+}
+.footer h2 {
+    color: #fff;
+    font-size: 20px;
+    margin: 15px 3px;
+}
+.footer ul {
+    padding: 0;
+}
+.footer ul li {
+    list-style-type: none;
+    padding: 5px 3px;
+}
+.footer ul li a {
+    color: #fff !important;
+}
+.design {
+    background-color: #111;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    color: #fff;
+}/*Page section*/
+.page h1 {
+    font-size: 28px;
+}
+.breadcrumb {
+    background-size: cover;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.page .maincontainer {
+    font-size: 16px;
+    line-height: 145%;
+}
+.page .maincontainer p {
+    text-align: justify;
+}
+.page .maincontainer .schedule {
+    background: #FFFFFF;
+}
+.page .slider .image {
+    margin-bottom: 20px;
+}
+.page .slider img {
+    width: 100%;
+}
+.page .slider img {
+    border: 10px solid #fff;
+}
+.page .full {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.page .shorts {
+    padding: 40px 30px;
+}
+.page .shorts .package {
+    margin-bottom: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px #ddd;
+    box-shadow: 0 0 10px #111;
+}
+.page .shorts .package .card-img .image {
+    padding: 10px;
+    max-height: 200px;
+    overflow: hidden;
+    min-height: 200px
+}
+.page .shorts .package .card-block {
+    background-color: #F5F5F5;
+    padding: 10px 20px 30px 20px;
+}
+.page .shorts .package .card-block h4 {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.page .shorts .package .card-block p {
+    min-height: 50px;
+}
+.page .shorts .package .btn-primary {
+    color: #fff !important;
+    background-color: #0094DE;
+    border-color: #0094DE;
+    padding: 10px 20px;
+}
+.table-responsive {
+    display: table !important;
+}
+.page .vehiclebooking, .page .vehiclebooking ul {
+    background: #666 !important;
+}
+.page .vehiclebooking ul li {
+    list-style: none !important;
+    display: inherit !important;
+    margin-right: 0px !important;
+    max-width: none !important;
+}
+.page .vehiclebooking ul li:before {
+    content: inherit !important;
+}
+.page .vehiclebooking ul li label {
+}
+.page .tabarea {
+    background: #eee;
+    padding: 10px;
+    padding-top: 2px;
+    border-radius: 7px;
+}
+.page .container .tabarea .tabs ul.resp-tabs-list li.resp-tab-item {
+    color: #fff;
+    font-size: 15px;
+    background: #ED9C28;
+    margin-right: 5px;
+}
+.page .container .tabarea .tabs ul.resp-tabs-list {
+    min-height: 55px;
+    border-bottom: 5px solid #0C0;
+}
+.page .container .tabarea p {
+    text-align: justify;
+}
+.page .container .tabarea .tabs ul.resp-tabs-list li.resp-tab-active {
+    color: #fff;
+    background: #0C0;
+    border: none;
+}
+.page .tabarea .section3 {
+    position: relative;
+}
+.page .tabarea .section3 p {
+    padding-left: 90px;
+    line-height: 25px;
+}
+.page .tabarea .section1 p i, .page .tabarea .section1 p em {
+    font-style: normal;
+    font-weight: bold;
+}
+.page .tabarea .section3 p i, .page .tabarea .section3 p em {
+    position: absolute;
+    left: 05px;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 15px;
+}
+.page .tabarea .resp-tabs-container h3 {
+    color: #E74916;
+}
+.page .tabarea .resp-tabs-container ul li {
+    display: block;
+    margin-left: 25px;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+.page .tabarea .include li:before {
+    content: "\e013";
+    margin-left: -20px;
+    display: inline-block;
+    padding-right: 5px;
+    font-weight: normal;
+    font-family: 'Glyphicons Halflings';
+    color: #060;
+}
+.page .tabarea .exclude li:before {
+    content: "\e014";
+    margin-left: -20px;
+    padding-right: 5px;
+    display: inline-block;
+    font-weight: normal;
+    font-family: 'Glyphicons Halflings';
+    color: #FF0000;
+}
+.page .tabarea #gallery img {
+    border: 5px solid #ccc;
+}
+.page .tabarea #gallery a {
+    display: inline-block;
+    margin: 3px;
+    max-width: 150px;
+}
+.page .tabarea .highlight {
+    border: double 3px #2D723A;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.page .tabarea .highlight h2 {
+    font-size: 18px;
+    color: #2D723A;
+    margin-top: 0;
+}
+.page .tabarea .highlight h2:before {
+    content: "\f06d";
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: #F20309;
+}
+.page .tabarea .highlight h2:after {
+    content: "\f06d";
+    font-family: FontAwesome;
+    margin-left: 5px;
+    color: #F20309;
+}
+.page .tabarea .highlight ul li {
+    margin-left: 0;
+}
+.page .tabarea .highlight ul li:before {
+    content: "\f0a9";
+    font-family: FontAwesome;
+    font-size: 15px;
+    margin-right: 5px;
+    color: #2D723A;
+}
+.page .tabarea h2.resp-tab-active {
+    background-color: #2D723A !important;
+}
+.page .tabarea #departureform {
+    margin-bottom: 15px;
+}
+.page .tabarea #departure #depmonth ul {
+    margin: 0;
+    padding: 0;
+}
+.page .tabarea #departure #depmonth li {
+    display: inline-block;
+    padding: 6px 7px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page .tabarea #departure #depmonth li:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+.page .tabarea #departure #depmonth li.active {
+    background-color: #00458D;
+}
+.page .tabarea #depyear {
+    margin-top: 10px;
+}
+.page .tabarea #departure #depmonth {
+    background-color: #2D723A;
+    margin-top: 10px;
+}
+.page .booking {
+    padding: 20px 0;
+}
+.page .booking li {
+    list-style: none;
+}
+.page .booking .btn {
+    border-radius: 0px;
+    padding: 7px 15px;
+}
+.related_trip_bg {
+    margin-top: 0px;
+    padding-bottom: 12px;
+    background: #F2F3F3;
+    padding-bottom: 15px;
+}
+.related_trip {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/.related_trip h2 span {
+     font-family:"Trebuchet MS";
+     font-size:22px;
+     line-height:145%;
+     background:#2D723A;
+     color:#fff;
+     padding:4px 8px;
+ }
+.related_trip ul li {
+    line-height: 170%;
+    color: #0D284B;
+    padding-left: 40px;
+    padding-top: 5px;
+    list-style: none;
+    width: 30%;
+    display: inline-block;
+}
+.related_trip li:hover {
+    color: #930;
+}
+.related_trip li:before {
+    content: "\f0a9";
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+.page .shorts {
+    margin: 15px 0;
+}
+.page .shorts .box {
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 10px;
+    color: #555 !important;
+}
+.page .shorts .box h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px !important;
+}
+.page .shorts .box h2 a {
+    color: #444 !important;
+}
+.page .shorts .box .cost {
+    color: #A07E49;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif !important;
+    font-style: italic;
+}
+.page .shorts .box .cost #cost {
+    color: #f90;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif !important;
+    font-size: 24px;
+    font-style: normal !important;
+}
+.page .shorts .box .image {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    max-height: 185px;
+    overflow: hidden;
+    max-width: 250px;
+}
+.page .shorts .box .image img {
+    border: 5px solid #DFEFFF;
+    border-radius: 3px;
+    max-width: 250px;
+}
+.page .rightMenu {
+    margin-bottom: 20px;
+}
+.page .rightMenu form p label {
+    color: #999 !important;
+}
+.page .rightMenu form p input.btn {
+    background: #0094DE !important;
+}
+.page .rightMenu .vehiclebooking, .page .rightMenu ul {
+    padding: 10px;
+    background: #fff;
+}
+.page .rightMenu .facts {
+    line-height: 30px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+.page .rightMenu .facts p strong, .page .rightMenu .facts p b {
+    color: #2D723A;
+}
+.page .rightMenu ul li {
+    line-height: 170%;
+    color: #0D284B;
+    padding-left: 40px;
+    padding-top: 5px;
+    list-style: none;
+;
+}
+.page .rightMenu ul li a:hover {
+    color: #009;
+    text-decoration: underline;
+}
+.page .rightMenu ul li:before {
+    content: "\f101";
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: #0d284b;
+}
+.page .rightMenu .bookingform h2 {
+    color: #fff;
+    border-radius: 0;
+}
+.page .schedule input {
+    background: #0094DE;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.page .schedule input:hover {
+    background-color: #039;
+}
+.page #id_search {
+    margin-bottom: 30px;
+}
+.page input, .page textarea, .page select {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+.page input.btn {
+    background: #222;
+}
+.page .page-booking ul li {
+    list-style: none;
+}
+.page .rightMenu {
+    border: 1px solid #0094DE;
+}
+.page .rightMenu h2, .page .rightMenu h3 {
+    background: #0094DE;
+    margin-top: 0px;
+    color: #fff;
+    padding: 13px 10px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.page .rightMenu .bookingform #contactform, .page .rightMenu ul {
+    padding: 10px;
+}
+.page .rightMenu ul li {
+    line-height: 170%;
+    color: #0D284B;
+    padding-left: 40px;
+    padding-top: 5px;
+    list-style: none;
+;
+}
+.page .rightMenu ul li a:hover {
+    color: #009;
+    text-decoration: underline;
+}
+.page .rightMenu ul li:before {
+    content: "\f101";
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: #0d284b;
+}
+.page .rightMenu ul li {
+    padding: 3px 0px 2px 0px;
+}
+.page .rightMenu .rightbox {
+    padding: 20px;
+}
+.entry-content p a {
+    color: #03C !important;
+    font-weight: bold;
+}
+.widget-area ul {
+    padding: 0px;
+}
+.widget-area ul li {
+    margin: 5px 7px;
+}
+.quote{margin-bottom:20px;padding:20px; border:solid 2px #09F; text-align:center;}
+.quote h2{color:#09C;}
+.quote p{text-align:center; font-size:18px;}
+.quote p a{color:#093; font-weight:600;}
+
+.bookingform .row{margin-bottom:5px;}
+.bookingform .input-group {margin-bottom:5px;}
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .page .tabarea .section3 p {
+        padding-left: 70px;
+    }
+    .page .tabarea .section3 p em {
+        font-size: 14px;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .schedule table thead tr{
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .schedule table th{
+
+    }
+    .schedule table tr { border: 1px solid #ccc; margin-bottom:20px;}
+
+    .schedule table td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .schedule table td:before {
+        /* Now like a table header
+        position: absolute; */
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 60px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    /*
+    Label the data
+    */
+    .schedule table tr:nth-child(even) {background: #CCC}
+
+    .schedule table td:nth-of-type(1):before { content: "From:"; font-weight:bold; }
+    .schedule table td:nth-of-type(2):before { content: "To:"; font-weight:bold;}
+    .schedule table td:nth-of-type(3):before { content: "Vehicle:"; font-weight:bold;}
+    .schedule table td:nth-of-type(4):before { content: "Cost:"; font-weight:bold;}
+    .schedule table td:nth-of-type(5):before { content: "Duration:"; font-weight:bold;}
+    .schedule table td:nth-of-type(7):before { content: ""; font-weight:bold;}
+
+}
+
+@media screen and (min-width:400px)and (max-width:770px) {
+    h1 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (min-width:770px) {
+    .tm-tours-box-1 {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .related_trip ul li {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .page .youmay {
+        display: block;
+    }
+}
